@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Procura e mostra vagas para deficientes em uma certa localização.",
+          "examplePhrases": [
+            "Alexa, abra empregos p. c. d. e procure vagas em Blumenau.",
+            "Alexa, abra empregos p. c. d.",
+            "Alexa, abra empregos p. c. d. e busque em Porto Alegre."
+          ],
+          "keywords": [
+            "vagas",
+            "de",
+            "emprego",
+            "pcd"
+          ],
+          "name": "Empregos para PCDs",
+          "description": "Essa skill procura e mostra vagas de emprego para pessoas com deficiência em uma certa cidade determinada pelo usuário. É uma maneira fácil e rápida de encontrar empresas próximas de você que estão contratando. A skill fornece até três vagas recomendadas.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Primeira versão.\n- Procurar vagas por cidade.\n- Mostra até três vagas sugeridas.",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "To invoke the skill, call it \"empregos p. c. d.\", e.g., \"alexa, abrir empregos p. c. d.\" If you invoke it without any intent, the skill gonna ask you for a location. You have to give it a location, preferably a city, in order to search for job openings. The skill will take a few seconds to fetch the job openings and then it will ask you if you want to see them. If you say \"sim\", \"claro\", \"eu quero\" or similar sentences, it will show you up to three recommend job openings. \n\nYou can also directly invoke the skill with a location, e.g., \"alexa, abrir empregos p. c. d. e busque por vagas em Blumenau\", \"alexa, abrir empregos p. c. d. e procure vagas em Joinville.\"",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:810263655542:function:4a3dc0b7-96bf-4ea4-8420-4efa3675ff4e:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:810263655542:function:4a3dc0b7-96bf-4ea4-8420-4efa3675ff4e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:810263655542:function:4a3dc0b7-96bf-4ea4-8420-4efa3675ff4e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:810263655542:function:4a3dc0b7-96bf-4ea4-8420-4efa3675ff4e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
