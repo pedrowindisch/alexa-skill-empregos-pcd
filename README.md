@@ -11,7 +11,7 @@ A versão final da skill foi portada para Node.js para cumprir os requerimentos 
 
 ## Testar localmente
 
-Para testar a skill localmente, registre uma chave na API da Jooble (link acima) e a adicione nas variáveis do ambiente como JOOBLE_API_KEY ou crie um arquivo .env seguindo o exemplo na raíz do projeto. Instale o pacote ask-cli com o npm: `npm install -g ask-cli`.
+Para testar a skill localmente, registre uma chave na API da Jooble (link acima) e a adicione nas variáveis do ambiente como JOOBLE_API_KEY ou crie um arquivo .env seguindo o [exemplo](.env.example) na raíz do projeto. Instale o pacote ask-cli com o npm: `npm install -g ask-cli`.
 
 Acesse o diretório `alexa-skill-empregos-pcd/packages/nodejs` e rode o comando `ask configure`. Faça o login com sua conta Amazon na página que abrir e retorne ao terminal.
 
