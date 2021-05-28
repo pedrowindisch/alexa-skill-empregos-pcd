@@ -1,6 +1,6 @@
 # Alexa Skill - Empregos PCD
 
-Skill feita para o [Prêmio Alexa de Acessibilidade](https://developer.amazon.com/pt-BR/alexa/alexa-skills-kit/premio-alexa-de-acessibilidade).
+Skill feita para o [Prêmio Alexa de Acessibilidade](https://developer.amazon.com/pt-BR/alexa/alexa-skills-kit/premio-alexa-de-acessibilidade). Hospedada na AWS Lambda.
 
 Ao ser chamada, a skill fornece até três vagas de empregos, destinadas a pessoas com deficiência, em uma região ou
 cidade escolhida pelo usuário.
